@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Shippori+Antique+B1&display=swap');
+ 
+#40a7ff
+#0f2656
+#f15767
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Shippori Antique B1', sans-serif; */
+}
+header{
+
+padding: 7px 0;
+border-bottom: 0.3px solid  #1025561e;
+}
+.container{
+padding-left: 100px;
+padding-right: 100px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+   
+}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    color: #0f2656;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-transform: capitalize;
+}
+.container-sm{
+    margin: auto;
+    max-width: 800px;
+}
+.banner{
+    text-align: center;
+}
+.banner h1{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Shippori Antique B1', sans-serif;
+    color: #0f2656;
+    line-height: 1.2;
+
+}
+.banner h1 strong{
+    color:#40a7ff ;
+    display: block;
+}
+.banner p{
+    color: #0f2656;
+    margin: 20px auto;
+}
+.feature-section{
+    padding: 30px 0;
+   
+}
+.col-2{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.feature-section h1{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Shippori Antique B1', sans-serif;
+    color: #0f2656;
+    line-height: 1.1;
+}
+.feature-section h2{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Shippori Antique B1', sans-serif;
+    color: red;
+    line-height: 1.1;
+}
+.feature-section p{
+    color: #0f2656;
+}
+.banner img{
+    width: 700px;
+}
+.col-3{
+    flex-basis: 30%;
+    max-width: 30%;
+    padding: 12px;
+}
+.color1{
+background-color: #fdebed;
+}
+.color2{
+    background-color: #f0faf6;
+    }
+    .color3{
+        background-color: #fff7e8;
+     }
+
+.service img{
+    height: 240px;
+}
+.service{
+    padding: 50px 30px;
+    text-align: center;
+}
+.service h3{
+    text-align: left;
+    font-size: 20px;
+    color: #0f2656;
+    margin: 16px 0;
+}
+.service p{
+    text-align: left;
+    color: #0f2656;
+}
+footer{
+    background-color: #40a7ff;
+    padding: 20px 0;
+    text-align: center;
+}
+.copyright p{
+    color: white;
+}
+.service-section{
+    padding: 50px 0;
+}
